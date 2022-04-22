@@ -6,7 +6,7 @@ const router  = new Router();
 router.get('/', (context) => {
   context.response.body = 'Hello World!';
 }).get('/new', ({response}) => {
-  response.body = 'New endpoint!';
+  response.body = 'New endpoint2!';
 });
 
 export default router;
